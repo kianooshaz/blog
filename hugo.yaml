@@ -1,0 +1,63 @@
+title: Kianoosh Az
+baseURL: https://kianooshaz.ir/
+
+# This is what goes in <html lang="">
+languageCode: fa-IR
+
+theme: hugo-blog-awesome
+
+# This defines how dates are formatted
+defaultContentLanguage: fa
+
+# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
+# To disable Google Analytics, simply leave the field empty or remove the next line
+googleAnalytics:
+
+# Enable emojis globally
+enableEmoji: true
+ignoreErrors: ["additional-script-loading-error"] # ignore error of loading additional scripts.
+
+# To enable Disqus comments, provide Disqus Shortname below.
+# To disable Disqus comments, simply leave the field empty or remove the next line
+disqusShortname:
+
+menus:
+  main:
+    - pageRef: /
+      name: Home
+      url: /
+      weight: 10
+    - pageRef: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - pageRef: about
+      name: About
+      url: /about/
+      weight: 30
+
+
+params:
+  author:
+    # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+    avatar: avatar.jpeg # put the file in assets folder; also ensure that image has same height and width
+    intro: Kianoosh Ashayerizade
+    name: kianoosh
+    description: I’m passionate about creating efficient and scalable softwares
+    resume: "https://drive.google.com/file/d/1kOIWEG/view"
+
+  sitename: Kianoosh Ashayerizade Blog
+  # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
+  # the default value is set to 'auto'.
+  # You can take a look at layouts/index.html for more information.
+  defaultColor: auto # set color mode: dark, light, auto
+  description: Minimal Hugo blog theme with light and dark mode support
+  goToTop: true
+  socialIcons:
+    - name: github
+      url: https://github.com/kianooshaz
+    - name: telegram
+      url: https://t.me/kianooshaz
+    - name: linkedin
+      url: https://www.linkedin.com/in/kianooshaz/
+
